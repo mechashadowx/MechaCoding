@@ -23,6 +23,7 @@ class _HomePageState extends State<HomePage> {
   @override
   void initState() {
     super.initState();
+
     String text = 'MechaCoding';
     print('MD5: ${Hash.md5(text)}');
     print('SHA-1: ${Hash.sha1(text)}');
